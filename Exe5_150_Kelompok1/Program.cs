@@ -29,6 +29,12 @@ namespace Exe5_150_Kelompok1
                 rear = newnode;
                 return;
             }
+            rear.next = newnode;
+            rear = newnode;
+        }
+        public void delete()
+        {
+
         }
     }
 }
