@@ -9,6 +9,11 @@ namespace Exe5_150_Kelompok1
     }
     class queue
     {
-
+        Node front, rear;
+        public queue()
+        {
+            front = null;
+            rear = null;
+        }
     }
 }
