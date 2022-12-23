@@ -19,6 +19,16 @@ namespace Exe5_150_Kelompok1
         {
             string nm;
             Node newnode = new Node();
+            Console.WriteLine("Masukan Element");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
+            if (front == null)
+            {
+                front = newnode;
+                rear = newnode;
+                return;
+            }
         }
     }
 }
