@@ -34,7 +34,11 @@ namespace Exe5_150_Kelompok1
         }
         public void delete()
         {
-
+            if (front == null)
+            {
+                Console.WriteLine("Queue Missing");
+                return;
+            }
         }
     }
 }
