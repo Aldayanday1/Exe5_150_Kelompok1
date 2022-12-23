@@ -36,7 +36,7 @@ namespace Exe5_150_Kelompok1
         {
             if (front == null)
             {
-                Console.WriteLine("Queue Missing");
+                Console.WriteLine("Queue Kosong");
                 return;
             }
             front = front.next;
@@ -45,6 +45,14 @@ namespace Exe5_150_Kelompok1
         }
         public void display()
         {
+            if (front == null)
+            {
+                Console.WriteLine("Queue Kosong");
+                return;
+            }
+            Node Current;
+            for (Current = front; Current != null; Current = Current.next);
+            Console.WriteLine(Current.name);
 
         }
     }
