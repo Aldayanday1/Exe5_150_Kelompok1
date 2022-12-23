@@ -7,4 +7,8 @@ namespace Exe5_150_Kelompok1
         public string name;
         public Node next;
     }
+    class queue
+    {
+
+    }
 }
