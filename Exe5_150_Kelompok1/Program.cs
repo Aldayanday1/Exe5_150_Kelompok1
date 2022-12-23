@@ -15,5 +15,10 @@ namespace Exe5_150_Kelompok1
             front = null;
             rear = null;
         }
+        public void insert()
+        {
+            string nm;
+            Node newnode = new Node();
+        }
     }
 }
